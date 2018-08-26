@@ -1,6 +1,5 @@
 clc;
 clear;
-cd 'D:\University Files\Projects\Persian Handwritten Digit Recognition';
 
 %% Reading .cdb files into MATLAB
 
@@ -217,15 +216,15 @@ GlobalBest.Cost = inf;
 
 for i = 1:nPop
     
-    particle(i).Position = round(unifrnd(VarMin, VarMax, VarSize));  % Initialize position
-    particle(i).Velocity = zeros(VarSize);  % Initialize velocity
+    particle(i).Position = round(unifrnd(VarMin, VarMax, VarSize));  % Initializing position
+    particle(i).Velocity = zeros(VarSize);  % Initializing velocity
     particle(i).Cost = CostFunction(particle(i).Position, zsX, zXtest, Ytest);  % Evaluation
     
-    % Update personal best
+    % Updating personal best
     particle(i).Best.Position = particle(i).Position;
     particle(i).Best.Cost = particle(i).Cost;
     
-    % Update global best
+    % Updating global best
     if particle(i).Best.Cost < GlobalBest.Cost
         GlobalBest = particle(i).Best;
     end
