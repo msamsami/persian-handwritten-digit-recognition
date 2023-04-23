@@ -1,5 +1,4 @@
-# persian-handwritten-digit-recognition-system
-Persian Handwritten Digit Recognition System using Particle Swarm Optimization Based K-Means Clustering and Probabilistic Neural Network
+# Persian Handwritten Digit Recognition using PSO-based K-Means Clustering and Probabilistic Neural Network
 
 This project is a MATLAB simulation of the method presented by [Mehran Taghipour-GorjiKolaie et al.](https://www.semanticscholar.org/paper/Persian-Handwritten-Digit-Recognition-Using-Swarm-MehranTaghipour-GorjiKolaie-Miri/375c8fce8a3eada82aa3fea145e28c1da64087ff) in 2014. In order to recognize Persian (Farsi) handwritten digits, a combination of intelligent clustering method and probabilistic neural network (PNN) has been utilized. [Hoda data set](http://farsiocr.ir/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%AF%D8%A7%D8%AF%D9%87/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A7%D8%B1%D9%82%D8%A7%D9%85-%D8%AF%D8%B3%D8%AA%D9%86%D9%88%DB%8C%D8%B3-%D9%87%D8%AF%DB%8C/), which contains 80000 Persian handwritten digit images, has been used to evaluate the classifier.
 
